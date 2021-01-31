@@ -452,3 +452,9 @@ li, p {
 	}
 
 }
+
+@media (min-width: 350px) and (max-width: 850px) {
+	.l1, .l2, .l3 {
+		left: 0;
+	}
+}
