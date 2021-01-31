@@ -10,9 +10,9 @@
 </head>
 <body>
 	<section class="identity-bloc">
+		<img id="martin" src="images/martin-johnson.jpg" alt="Photo d'identité de Martin Johnson">
 		<header>
-			<div class="photo-title">
-				<img id="martin" src="images/martin-johnson.jpg" alt="Photo d'identité de Martin Johnson">
+			<div>
 				<h2>Game Designer</h2>
 			</div>
 			<div class="name-bloc">
@@ -40,33 +40,38 @@
 		<div>
 			<h3>Expertises</h3>
 			<div class="container flex">
-				<div>
+				<div class="layering l1">
 					<img class="xp" src="images/light.png" alt="Créativité">
 					<hr>
-					<h4>Créativité</h4>
+					<h4 class="xp-word">Créativité</h4>
 				</div>
-				<div>
+				<div class="layering l2">
 					<img class="xp" src="images/pen.png" alt="Écriture">
-					<h4>Écriture</h4>
+					<hr>
+					<h4 class="xp-word">Écriture</h4>
 				</div>
-				<div>
+				<div class="layering l3">
 					<img class="xp" src="images/design.png" alt="Design">
-					<h4>Design</h4>
+					<hr>
+					<h4 class="xp-word">Design</h4>
 				</div>
 			</div>
 		</div>
 		<div>
 			<h3>Formation</h3>
-			<ul class="container">
-				<h5>Licence écriture du Jeu Vidéo</h5>
-				<li>De septembre 2019 à septembre 2020</li>
-				<h6>Cnam-Enjmin Angoulême</h6>
-				<h5>BTS Développeur web</h5>
-				<li>De septembre 2017 à septembre 2019</li>
-				<h6>CESI Bordeaux</h6>
-				<h5>Baccalauréat S</h5>
-				<li>Juin 2016</li>
-				<h6>Lycée Montesquieu Bordeaux</h6>
+			<ul class="container flex">
+				<img id="line" src="images/line.png" alt="ligne">
+				<div>
+					<h5>Licence écriture du Jeu Vidéo</h5>
+					<li>De septembre 2019 à septembre 2020</li>
+					<h6>Cnam-Enjmin Angoulême</h6>
+					<h5>BTS Développeur web</h5>
+					<li>De septembre 2017 à septembre 2019</li>
+					<h6>CESI Bordeaux</h6>
+					<h5>Baccalauréat S</h5>
+					<li>Juin 2016</li>
+					<h6>Lycée Montesquieu Bordeaux</h6>
+				</div>
 			</ul>
 		</div>
 	</section>
@@ -75,7 +80,7 @@
 		<div>
 			<h3>Compétences</h3>
 			<ul class="container">
-				<li class="flex">
+				<li class="flex-skills">
 					<h5>Scénarisation</h5>
 						<div class="points">
 							<div class="blue-point"></div>
@@ -88,7 +93,7 @@
 							<div class="grey-point"></div>
 						</div>
 				</li>
-				<li class="flex">
+				<li class="flex-skills">
 					<h5>Unity</h5>
 						<div class="points">
 							<div class="blue-point"></div>
@@ -101,7 +106,7 @@
 							<div class="grey-point"></div>
 						</div>
 				</li>
-				<li class="flex">
+				<li class="flex-skills">
 					<h5>Première CC</h5>
 						<div class="points">
 							<div class="blue-point"></div>
@@ -114,7 +119,7 @@
 							<div class="grey-point"></div>
 						</div>
 				</li>
-				<li class="flex">
+				<li class="flex-skills">
 					<h5>Photoshop CC</h5>
 						<div class="points">
 							<div class="blue-point"></div>
@@ -127,7 +132,7 @@
 							<div class="grey-point"></div>
 						</div>
 				</li>
-				<li class="flex">
+				<li class="flex-skills">
 					<h5>Illustrator CC</h5>
 						<div class="points">
 							<div class="blue-point"></div>
@@ -140,7 +145,7 @@
 							<div class="grey-point"></div>
 						</div>
 				</li>
-				<li class="flex">
+				<li class="flex-skills">
 					<h5>GameMaker</h5>
 						<div class="points">
 							<div class="blue-point"></div>
@@ -153,7 +158,7 @@
 							<div class="grey-point"></div>
 						</div>
 				</li>
-				<li class="flex">
+				<li class="flex-skills">
 					<h5>Blender <br>
 					(modélisation)</h5>
 						<div class="points">
@@ -171,44 +176,61 @@
 		</div>
 		<div>
 			<h3>Expérience professionnelle</h3>
-			<div class="container">
-				
+			<div class="container flex">
+				<div id="numbers">
+					<p class="number">3</p>
+					<p class="number">2</p>
+				</div>
+				<div>
+					<ul class="xp-pro">
+						<li>mois de stage game design</li>
+						<h6>UBISOFT Bordeaux</h6>
+						<li>Juin à août 2019</li>
+					</ul>
+					<ul class="xp-pro">
+						<li>ans développeur alternance</li>
+						<h6>Webagency Bordeaux</h6>
+						<li>De septembre 2017 à septembre 2019</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="hobbies">
 		<div>
+			<h3>Hobbies</h3>
 			<div class="flex">
-				<div>
-					<img class="icons" src="images/game.png" alt="Jeux-vidéos">
+				<div class="icons">
+					<img src="images/game.png" alt="Jeux-vidéos">
 						<h4>Jeux vidéos</h4>
 				</div>
-				<div>
-					<img class="icons" src="images/photo.png">
+				<div class="icons">
+					<img src="images/photo.png">
 						<h4>Photo</h4>
 				</div>
-				<div>
-					<img class="icons" src="images/movie.png">
+				<div class="icons">
+					<img src="images/movie.png">
 						<h4>Cinéma</h4>
 				</div>
-			</div>
+			</div class="icons">
 			<div class="flex">
-				<div>
-					<img class="icons" src="images/book.png">
+				<div class="icons">
+					<img src="images/book.png">
 						<h4>Romans SF</h4>
 				</div>
-				<div>
-					<img class="icons" src="images/music.png">
+				<div class="icons">
+					<img src="images/music.png">
 						<h4>K-pop</h4>
 				</div>
-				<div>
-					<img class="icons" src="images/leaf.png">
+				<div class="icons">
+					<img src="images/leaf.png">
 						<h4>Botanique</h4>
 				</div>
 			</div>
 		</div>
 		<div>
+			<h3>Langues</h3>
 			<div class="flex">
 				<div class="lg">
 					<img src="images/fr.png" alt="language FR">
